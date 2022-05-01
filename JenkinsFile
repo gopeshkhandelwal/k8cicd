@@ -3,6 +3,7 @@ pipeline {
    environment {
        registry = "gopeshkhandelwal/k8cicd"
        GOCACHE = "/tmp"
+       GOPATH = "/Users/gkhandelwal/go"
    }
    stages {
        stage('Build') {
